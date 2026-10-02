@@ -1,0 +1,70 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials/
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Logs and caches
+*.log
+logs/
+.cache/
+cache/
+audio_cache/
+
+# Temporary and generated output
+tmp/
+temp/
+out/
+output/
+generated/
+renders/
+*.tmp
+*.part
+
+# Audio, video, and transcript artifacts
+*.aac
+*.flac
+*.m4a
+*.m4v
+*.mka
+*.mkv
+*.mov
+*.mp3
+*.mp4
+*.ogg
+*.opus
+*.srt
+*.vtt
+*.wav
+*.webm
+*.transcript.json
+*.words.json
+
+# Editor, operating system, and local launchers
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.lnk
